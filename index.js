@@ -7,4 +7,9 @@ const obj = {
     tel: '0960602803',
 }
 
+const calculate = (a, b) => {
+    return a + b;
+}
+
 console.log(obj)
+console.log(`result: ${calculate(5, 4)}`)
